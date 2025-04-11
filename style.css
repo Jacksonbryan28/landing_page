@@ -24,6 +24,10 @@ body {
 
 .hero {
 }
+.logo{
+  font-size: 24px;
+  color: #f9faf8;
+}
 
 .custom.li {
   display: flex;
