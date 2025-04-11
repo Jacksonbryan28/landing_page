@@ -10,7 +10,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding: 8px; */
+  padding: 16px;
 }
 
 .hero,
@@ -22,24 +22,39 @@ body {
   align-items: center;
 }
 
-.hero {
+.hero.heading {
+  font-size: 48px;
+  font-weight: 900;
 }
-.logo{
-  font-size: 24px;
-  color: #f9faf8;
+
+.hero.body,
+.custom.li {
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .custom.li {
   display: flex;
-  gap: 8px;
+  gap: 16px;
   padding: 0px;
   margin: 0px;
   list-style-type: none;
 }
 
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
 .content-wrap {
   max-width: 960px;
-  padding: 8px;
+}
+
+button {
+  background-color: #3882f6;
+  padding: 8px 16px;
+  color: #f9faf8;
+  border-radius: 8px;
 }
 
 .hero-img {
@@ -50,5 +65,5 @@ body {
   flex-direction: row-reverse;
   flex: 1;
   gap: 32px;
-  padding: 36px 0px;
+  padding: 36px 16px;
 }
