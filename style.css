@@ -68,8 +68,9 @@ button {
   padding: 36px 16px;
 }
 
-
-.img-square{
-width: 300px;
-border-radius: 8px;
+.img-square {
+  border-radius: 8px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
