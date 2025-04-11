@@ -67,3 +67,9 @@ button {
   gap: 32px;
   padding: 36px 16px;
 }
+
+
+.img-square{
+width: 300px;
+border-radius: 8px;
+}
