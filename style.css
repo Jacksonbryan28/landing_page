@@ -48,14 +48,31 @@ body {
 .content-wrap {
   max-width: 960px;
   padding: 64px 16px;
+
   align-self: center;
 }
 
-button {
+.content-wrap.top-page {
+  padding: 8px 16px;
+}
+
+.button.hero {
   background-color: #3882f6;
   padding: 8px 16px;
   color: #f9faf8;
   border-radius: 8px;
+  border: 0px;
+}
+
+.button.cta {
+  padding: 8px 16px;
+  color: white;
+  margin: 8px;
+  flex-shrink: 0;
+  border: 2px solid #ffffff;
+  background-color: #3882f6;
+  border-radius: 8px;
+  align-self: center;
 }
 
 .hero-img {
@@ -69,8 +86,6 @@ button {
   gap: 32px;
   padding: 36px 0px;
 }
-
-
 
 .img-square {
   border-radius: 8px;
@@ -87,24 +102,31 @@ button {
   gap: 8px;
 }
 
+.hflex.bluebox {
+  padding: 36px;
+  background-color: #3882f6;
+  color: #ffffff;
+  border-radius: 8px;
+  gap: 100px;
+}
+
 .center {
   display: flex;
   flex-direction: column;
+  align-self: center;
   /* align-items: center; */
-
 }
 
-.quote{
+.quote {
   font-size: 36px;
   font-weight: lighter;
   font-style: italic;
   background-color: #e5e7eb;
 }
 
-.quote.speaker{
- font-size: 24px;
- font-weight: 700;
- display: flex;
- justify-content: flex-end;
+.quote.speaker {
+  font-size: 24px;
+  font-weight: 700;
+  display: flex;
+  justify-content: flex-end;
 }
-
